@@ -4,7 +4,7 @@
   "description": "A CLI and API tool for generating structured prompts for coding tasks based on the LangGPT framework",
   "main": "index.js",
   "bin": {
-    "langgpt-prompt-generator": "./index.js"
+    "langgpt-prompt-generator": "index.js"
   },
   "directories": {
     "example": "examples"
@@ -14,6 +14,14 @@
     "serve": "node index.js serve",
     "generate": "node index.js generate",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krystal1110/LangGptTool.git"
+  },
+  "homepage": "https://github.com/krystal1110/LangGptTool#readme",
+  "bugs": {
+    "url": "https://github.com/krystal1110/LangGptTool/issues"
   },
   "keywords": [
     "langGPT",
@@ -25,7 +33,7 @@
     "programming",
     "structured-prompts"
   ],
-  "author": "",
+  "author": "krystal1110",
   "license": "Apache-2.0",
   "dependencies": {
     "chalk": "^4.1.2",

@@ -13,9 +13,12 @@
 ## 安装方法
 
 ```bash
-# 克隆仓库
-git clone https://github.com/yourusername/langgpt-prompt-generator.git
-cd langgpt-prompt-generator
+# 通过npm安装
+npm install -g langgpt-prompt-generator
+
+# 或者克隆仓库
+git clone https://github.com/krystal1110/LangGptTool.git
+cd LangGptTool/langgpt-prompt-generator
 
 # 安装依赖
 npm install
