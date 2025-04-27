@@ -1,0 +1,41 @@
+{
+  "name": "langgpt-prompt-generator",
+  "version": "1.0.0",
+  "description": "A CLI and API tool for generating structured prompts for coding tasks based on the LangGPT framework",
+  "main": "index.js",
+  "bin": {
+    "langgpt-prompt-generator": "./index.js"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "serve": "node index.js serve",
+    "generate": "node index.js generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "langGPT",
+    "prompt",
+    "generator",
+    "AI",
+    "LLM",
+    "code",
+    "programming",
+    "structured-prompts"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.2.5",
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
